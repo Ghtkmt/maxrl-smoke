@@ -3,6 +3,7 @@ accelerate
 codetiming
 datasets
 dill
+einops
 flash-attn
 hydra-core
 numpy
