@@ -699,7 +699,7 @@ class RayPPOTrainer:
         # Log to each configured logger
         self.validation_generations_logger.log(self.config.trainer.logger, samples, self.global_steps)
 
-    def _validate(self):
+    def _validate(self): #eval
         data_source_lst = []
         reward_extra_infos_dict: dict[str, list] = defaultdict(list)
 
